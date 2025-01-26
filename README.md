@@ -1,39 +1,41 @@
-# [Project Name] 🎯
+# [BUDGET BUDDY] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [BYTE BUSTERS]
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: [KHUSHBOO KHALID] - [TKM College of Engineering]
+- Member 2: [Name] - [TKM College OF Engineering]
+
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+https://khushbookhalid.github.io/BUDGET-BUDDY/
 
 ### Project Description
-[2-3 lines about what your project does]
+Budget Buddy is a user-friendly expense tracking app designed to help individuals take control of their finances. With an intuitive interface, insightful analytics, and powerful tools, Budget Buddy allows users to monitor their spending, analyze trends, and make smarter financial decisions. Whether you're saving for a big goal, cutting unnecessary expenses, or just staying organized, Budget Buddy is your go-to solution for better money management.
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+Managing personal finances can be overwhelming, especially for individuals trying to keep track of daily expenses, stay within a budget, and save for future goals. Many struggle with:
+•	Lack of awareness of where their money is going.
+•	Difficulty in tracking expenses consistently.
+•	Overspending due to lack of budget-friendly alternatives or impulsive purchases.
+•	Difficulty in saving while balancing recurring expenses.
+•	Lack of actionable insights to optimize spending habits.
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+There is a need for a solution that simplifies expense tracking, provides actionable insights, and suggests cost-effective options to help individuals make smarter financial decisions and achieve their savings goals efficiently.
+
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- [Languages Used: HTML,javascript]
+- [Frameworks used: HTML]
+- [Libraries used: FRONTEND- React.js/Vue.js, google font]
+- [Tools used: VS CODE, Chatgpt, Git, Github]
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:
@@ -47,27 +49,24 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+ 
+This is the login page
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+ 
+This page allows user to add and track expenses
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+ 
 
-For Hardware:
+ 
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+This allows user to create budgets and set goals .
+
+
+ 
+This allows user to see the spending insights and visualize spending summary.
+
 
 # Build Photos
 ![Team](Add photo of your team here)
@@ -84,16 +83,14 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://drive.google.com/file/d/1apxlEphEECfLJ6ckqBNRLn7I4uxuzEIA/view?usp=drivesdk
 
-# Additional Demos
-[Add any extra demo materials/links]
+This is the demo video of the working of budget buddy app where the user login into the page , add expenses and track them, set goals, set monthly or annual budgets, gets real time notifications on exceeding budget, get spening insights which visualises spending summary.
+
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Fathima Mahim]: [Ideation, Login,set goals, add budget, notifications, challenges,]
+- [Khushboo Khalid]: [Ideation,Add expense, AI Insights, documentation]
 
 ---
 Made with ❤️ at TinkerHub
