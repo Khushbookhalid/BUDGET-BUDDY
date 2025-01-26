@@ -50,23 +50,36 @@ For Software:
 
 # Screenshots (Add at least 3)
  
+
 This is the login page
+![1](https://github.com/user-attachments/assets/08eddb30-193a-45d9-a019-68f931b3aa8d)
 
 
  
-This page allows user to add and track expenses
+This page allows user to add and track expenses.
+
 
  
 
  
 
+![2](https://github.com/user-attachments/assets/977f33ff-5385-47cf-98d0-e57f78bc8a70)
 
 This allows user to create budgets and set goals .
 
 
- 
-This allows user to see the spending insights and visualize spending summary.
 
+
+
+ ![3](https://github.com/user-attachments/assets/01a31050-5830-4fa1-abae-64f8870662f0)
+ 
+
+![4](https://github.com/user-attachments/assets/7cb85f84-a032-489d-87e5-d8d79c3e1311)
+
+Allows user to see the spending insights and visualize spending summary.
+
+
+![5](https://github.com/user-attachments/assets/2c1e2387-bebc-41f1-a907-078c19318de9)
 
 # Build Photos
 ![Team](Add photo of your team here)
