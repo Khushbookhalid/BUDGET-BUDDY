@@ -1,0 +1,101 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Budget Buddy - Spending Insights
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100">
+  <!-- Navigation Bar -->
+  <nav class="bg-blue-600 p-4 text-white">
+   <div class="container mx-auto flex justify-between items-center">
+    <a class="text-2xl font-bold" href="#">
+     Budget Buddy
+    </a>
+    <ul class="flex space-x-4">
+     <li>
+      <a class="hover:underline" href="#">
+       Home
+      </a>
+     </li>
+     <li>
+      <a class="hover:underline" href="#">
+       Dashboard
+      </a>
+     </li>
+     <li>
+      <a class="hover:underline" href="#">
+       Spending Insights
+      </a>
+     </li>
+     <li>
+      <a class="hover:underline" href="#">
+       Settings
+      </a>
+     </li>
+    </ul>
+   </div>
+  </nav>
+  <!-- Spending Insights Section -->
+  <div class="container mx-auto mt-8 p-4 bg-white rounded-lg shadow-lg">
+   <h2 class="text-3xl font-bold mb-4">
+    Spending Insights
+   </h2>
+   <!-- Summary Section -->
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+    <div class="p-4 bg-blue-100 rounded-lg">
+     <h3 class="text-xl font-semibold">
+      Total Spending
+     </h3>
+     <p class="text-2xl font-bold">
+      $2,450
+     </p>
+    </div>
+    <div class="p-4 bg-green-100 rounded-lg">
+     <h3 class="text-xl font-semibold">
+      Average Monthly Spending
+     </h3>
+     <p class="text-2xl font-bold">
+      $1,200
+     </p>
+    </div>
+    <div class="p-4 bg-red-100 rounded-lg">
+     <h3 class="text-xl font-semibold">
+      Highest Spending Category
+     </h3>
+     <p class="text-2xl font-bold">
+      Groceries
+     </p>
+    </div>
+   </div>
+   <!-- Visual Summaries Section -->
+   <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <!-- Pie Chart -->
+    <div class="p-4 bg-gray-100 rounded-lg">
+     <h3 class="text-xl font-semibold mb-4">
+      Spending by Category
+     </h3>
+     <img alt="Pie chart showing spending distribution across categories such as groceries, entertainment, utilities, and others" height="300" src="https://storage.googleapis.com/a1aa/image/pvYDxhsrpu5yMFe6xeVU2kXcyXpQb3L6hSfysIksuKWmpaRoA.jpg" width="400"/>
+    </div>
+    <!-- Bar Chart -->
+    <div class="p-4 bg-gray-100 rounded-lg">
+     <h3 class="text-xl font-semibold mb-4">
+      Monthly Spending Trend
+     </h3>
+     <img alt="Bar chart showing monthly spending trend over the past year" height="300" src="https://storage.googleapis.com/a1aa/image/tvKfMf4YZSuS20pMATUw69Appfnd3EMoTX5yya4CBlSqpaRoA.jpg" width="400"/>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
+
