@@ -1,0 +1,164 @@
+<html>
+ <head>
+  <title>
+   Budget Buddy App
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body class="font-roboto bg-gray-100">
+  <div class="container mx-auto p-4">
+   <header class="flex justify-between items-center py-4">
+    <h1 class="text-2xl font-bold">
+     Budget Buddy
+    </h1>
+    <nav>
+     <ul class="flex space-x-4">
+      <li>
+       <a class="text-blue-500" href="http://127.0.0.1:5501/BUDGET-BUDDY/1.html?">
+        Home
+       </a>
+      </li>
+      <li>
+        <a class="text-blue-500" href="#">
+        goals
+        </a>
+      </li>
+      <li>
+       <a class="text-blue-500" href="#">
+        Challenges
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </header>
+   <main>
+    <section class="mb-8">
+     <h2 class="text-xl font-bold mb-4">
+      Create Budget
+     </h2>
+     <form class="bg-white p-6 rounded shadow-md">
+      <div class="mb-4">
+       <label class="block text-gray-700" for="budget-type">
+        Budget Type
+       </label>
+       <select class="w-full p-2 border rounded" id="budget-type">
+        <option value="monthly">
+         Monthly
+        </option>
+        <option value="weekly">
+         Weekly
+        </option>
+       </select>
+      </div>
+      <div class="mb-4">
+       <label class="block text-gray-700" for="income">
+        Income
+       </label>
+       <input class="w-full p-2 border rounded" id="income" placeholder="Enter your income" type="number"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-gray-700" for="goals">
+        Goals
+       </label>
+       <input class="w-full p-2 border rounded" id="goals" placeholder="Enter your goals" type="text"/>
+      </div>
+      <button class="w-full bg-blue-500 text-white p-2 rounded" type="submit">
+       Create Budget
+      </button>
+     </form>
+    </section>
+    <section class="mb-8">
+     <h2 class="text-xl font-bold mb-4">
+      Real-Time Notifications
+     </h2>
+     <div class="bg-white p-6 rounded shadow-md">
+      <p class="text-gray-700 mb-4">
+       You will receive real-time notifications when your spending exceeds the set limits.
+      </p>
+      <div class="flex items-center space-x-4">
+       <i class="fas fa-bell text-blue-500">
+       </i>
+       <p class="text-gray-700">
+        No notifications yet.
+       </p>
+      </div>
+     </div>
+    </section>
+    <section class="mb-8">
+     <h2 class="text-xl font-bold mb-4">
+      Set Savings Goals
+     </h2>
+     <form class="bg-white p-6 rounded shadow-md">
+      <div class="mb-4">
+       <label class="block text-gray-700" for="goal-name">
+        Goal Name
+       </label>
+       <input class="w-full p-2 border rounded" id="goal-name" placeholder="Enter your goal (e.g., vacation, gadget)" type="text"/>
+      </div>
+      <div class="mb-4">
+       <label class="block text-gray-700" for="goal-amount">
+        Goal Amount
+       </label>
+       <input class="w-full p-2 border rounded" id="goal-amount" placeholder="Enter the amount needed" type="number"/>
+      </div>
+      <button class="w-full bg-blue-500 text-white p-2 rounded" type="submit">
+       Set Goal
+      </button>
+     </form>
+    </section>
+    <section class="mb-8">
+     <h2 class="text-xl font-bold mb-4">
+      Actionable Tips
+     </h2>
+     <div class="bg-white p-6 rounded shadow-md">
+      <p class="text-gray-700 mb-4">
+       Get actionable tips to cut unnecessary expenses and save faster.
+      </p>
+      <ul class="list-disc pl-5 text-gray-700">
+       <li>
+        Track your daily expenses.
+       </li>
+       <li>
+        Cancel unused subscriptions.
+       </li>
+       <li>
+        Cook at home instead of eating out.
+       </li>
+       <li>
+        Use public transportation.
+       </li>
+       <li>
+        Buy in bulk to save money.
+       </li>
+      </ul>
+     </div>
+    </section>
+    <section class="mb-8">
+     <h2 class="text-xl font-bold mb-4">
+      Challenges and Rewards
+     </h2>
+     <div class="bg-white p-6 rounded shadow-md">
+      <p class="text-gray-700 mb-4">
+       Participate in challenges and earn rewards for staying within your budget.
+      </p>
+      <div class="flex items-center space-x-4">
+       <img alt="Icon representing a challenge" class="w-12 h-12" height="50" src="https://storage.googleapis.com/a1aa/image/ijQOb8IFvDr5HJusGUGa67Nb4wm4jk6PJXMgHJUsAEFHWLCF.jpg" width="50"/>
+       <p class="text-gray-700">
+        Complete a week without eating out and earn a badge!
+       </p>
+      </div>
+      <div class="flex items-center space-x-4 mt-4">
+       <img alt="Icon representing a reward" class="w-12 h-12" height="50" src="https://storage.googleapis.com/a1aa/image/oaBAumheHTRBFyyXJpec6cZnfuBLiGTLDL2EZkZxqtR3waRoA.jpg" width="50"/>
+       <p class="text-gray-700">
+        Save $100 this month and get a gift card!
+       </p>
+      </div>
+     </div>
+    </section>
+   </main>
+  </div>
+ </body>
+</html>
